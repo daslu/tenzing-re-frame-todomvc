@@ -1,0 +1,2 @@
+{:require  [tenzing-re-frame-todomvc.app]
+ :init-fns [tenzing-re-frame-todomvc.app/init]}
