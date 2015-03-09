@@ -27,7 +27,7 @@
 
 ;; -- Entry Point -------------------------------------------------------------
 
-(defn ^:export main
+(defn ^:export init
   []
   (dispatch-sync [:initialise-db])
   (reagent/render [tenzing-re-frame-todomvc.views/todo-app]
