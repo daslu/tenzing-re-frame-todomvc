@@ -9,7 +9,8 @@
                  [org.clojure/clojurescript "0.0-2760"]
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]
                  [reagent "0.5.0-alpha3"]
-                 [re-frame "0.2.0"]])
+                 [re-frame "0.2.0"]
+                 [secretary "1.2.1"]])
 
 (require
  '[adzerk.boot-cljs      :refer [cljs]]
